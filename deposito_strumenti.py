@@ -27,7 +27,7 @@ class DepositoStrumenti:
                 self.strumenti[codice]=strumenti #adesso sono dizionario strumenti con chiavi codici, manca poi ordinamento2
         except FileNotFoundError:
             print(f"File {file_path} non trovato")
-
+ -
 
    def aggiungi_strumento(self, tipo, marca, anno_acquisto, valore):
         """Aggiunge uno strumento nel deposito: aggiunge solo nel sistema e non aggiorna il file"""
