@@ -7,7 +7,7 @@ class DepositoStrumenti:
         self.responsabile = responsabile
         self.strumenti =  {}
         self.prestito = {}
-
+     .
     def responsabile_strumenti(self,responsabile):
         self.responsabile = responsabile
 
